@@ -22,11 +22,9 @@ public class PeminjamanSonya {
     private double angsuranbulan;
     private double hutang;
     
-    private static int studentCount; //get saja karena tidak mengembalikan nilai
-    
     public String getKodepinjam(){
         return kodepinjam;
-    }
+}
     
     public void setKodepinjam(String kodepinjam){
         this.kodepinjam = kodepinjam;
@@ -93,7 +91,4 @@ public class PeminjamanSonya {
         return hutang;
     }
  
-     public static int getStudentCount(){
-        return studentCount;
-    }
 }
